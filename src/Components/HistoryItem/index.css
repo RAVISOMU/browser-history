@@ -1,0 +1,116 @@
+.history-details-bg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.list-item {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    margin-bottom: 0px;
+  }
+
+  .domain-url {
+    margin-top: 2px;
+  }
+}
+
+.domain-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.history-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.time {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.title-domain-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 12px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-left: 16px;
+  }
+
+  .history-details-bg-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .history-details-container {
+    width: 100%;
+    display: flex;
+  }
+
+  .time {
+    width: 14%;
+    font-size: 16px;
+  }
+
+  .title-domain-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .title {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+
+  .domain-url {
+    font-size: 18px;
+  }
+}
